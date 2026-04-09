@@ -1,0 +1,12 @@
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.card {
+  border: 2px solid cyan;
+  padding: 20px;
+  width: 200px;
+  margin: auto;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz Geek</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🧠 Quiz Geek</h1>
+
+<p class="descricao">
+  Teste seus conhecimentos sobre cultura geek e veja quantos pontos você consegue!
+</p>
+
+<div class="quiz">
+
+  <div class="pergunta">
+    <h3>1. Quem é o pai de Luke Skywalker?</h3>
+    <button onclick="responder(true, this)">Darth Vader</button>
+    <button onclick="responder(false, this)">Yoda</button>
+  </div>
+
+  <div class="pergunta">
+    <h3>2. Qual é o nome do martelo do Thor?</h3>
+    <button onclick="responder(true, this)">Mjolnir</button>
+    <button onclick="responder(false, this)">Stormbreaker</button>
+  </div>
+
+  <div class="pergunta">
+    <h3>3. Em Harry Potter, qual casa é conhecida pela coragem?</h3>
+    <button onclick="responder(true, this)">Grifinória</button>
+    <button onclick="responder(false, this)">Sonserina</button>
+  </div>
+
+</div>
+
+<button onclick="mostrarResultado()" class="finalizar">
+  Ver Resultado
+</button>
+
+<p id="resultado"></p>
+
+<script src="script.js"></script>
+
+</body>
+</html>

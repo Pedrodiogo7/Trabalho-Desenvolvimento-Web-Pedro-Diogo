@@ -1,0 +1,57 @@
+body {
+  background: linear-gradient(to right, #000000, #1a1a1a);
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 30px;
+}
+
+h1 {
+  color: #ff3366;
+}
+
+.descricao {
+  margin-bottom: 30px;
+  color: #ccc;
+}
+
+/* GALERIA */
+.galeria {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* CARD */
+.card {
+  background-color: #111;
+  padding: 15px;
+  border-radius: 10px;
+  width: 150px;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 1px solid #333;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background-color: #1f1f1f;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* DETALHES */
+.detalhes {
+  margin-top: 30px;
+  padding: 20px;
+  border: 2px solid #ff3366;
+  border-radius: 10px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #111;
+}

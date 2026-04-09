@@ -1,0 +1,18 @@
+body {
+  background-color: #0d0d0d;
+  color: white;
+  text-align: center;
+  font-family: Arial;
+}
+
+.perfil {
+  border: 2px solid red;
+  padding: 20px;
+  width: 300px;
+  margin: auto;
+  background-color: #1a1a1a;
+}
+
+img {
+  width: 200px;
+}

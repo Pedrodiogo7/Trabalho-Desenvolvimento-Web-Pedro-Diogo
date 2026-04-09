@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Galeria Geek</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🦸‍♂️ Galeria de Personagens</h1>
+
+<p class="descricao">
+  Clique em um personagem para ver mais detalhes sobre ele.
+</p>
+
+<div class="galeria">
+
+  <!-- Darth Vader -->
+  <div class="card" onclick="mostrarDetalhe('Darth Vader', 'Um dos maiores vilões de Star Wars, mestre do lado sombrio.')">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzvq5M8g-fQ3P4NGyKSFTOW3Lms4IPWHfNyi37GYHuolG-Yc8dP7XKhE4hHT-MKgvUFOjAm7pM-hjbiV7LYTy_lmYSXvEIHInJJlYKxmXD&s=10">
+    <p>Darth Vader</p>
+  </div>
+
+  <!-- Yoda -->
+  <div class="card" onclick="mostrarDetalhe('Yoda', 'Um dos maiores mestres Jedi, conhecido por sua sabedoria.')">
+    <img src="https://upload.wikimedia.org/wikipedia/en/9/9b/Yoda_Empire_Strikes_Back.png">
+    <p>Yoda</p>
+  </div>
+
+  <!-- Homem-Aranha -->
+  <div class="card" onclick="mostrarDetalhe('Homem-Aranha', 'Herói da Marvel com habilidades de aranha e grande senso de responsabilidade.')">
+    <img src="https://i.pinimg.com/474x/78/51/ab/7851abaa40f8bfee2c77009592cd6511.jpg">
+    <p>Homem-Aranha</p>
+  </div>
+
+</div>
+
+<div id="detalhes" class="detalhes">
+  <h2 id="nome"></h2>
+  <p id="descricao"></p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

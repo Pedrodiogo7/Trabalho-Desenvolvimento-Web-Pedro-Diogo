@@ -1,0 +1,54 @@
+body {
+  background: linear-gradient(to right, #000000, #1a1a1a);
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #ffd700;
+  margin-bottom: 10px;
+}
+
+.intro {
+  max-width: 700px;
+  margin: 0 auto 30px auto;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ccc;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.episodio {
+  background-color: #111;
+  margin: 20px auto;
+  padding: 20px;
+  width: 70%;
+  border-radius: 10px;
+  transition: 0.3s;
+  border: 1px solid #333;
+}
+
+.episodio:hover {
+  transform: scale(1.03);
+  background-color: #1f1f1f;
+}
+
+h2 {
+  color: #00ccff;
+}
+
+.favorito {
+  border: 2px solid gold;
+  background-color: #1a1a00;
+}
+
+.favorito h2 {
+  color: gold;
+}
